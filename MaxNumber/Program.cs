@@ -15,14 +15,14 @@ int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
 int max = firstNumber;
 
-if (max < secondNumber) 
+if (max < secondNumber)
 {
-max = secondNumber;
+  max = secondNumber;
 }
 
-if (max < thirdNumber) 
+if (max < thirdNumber)
 {
-max = thirdNumber;
+  max = thirdNumber;
 }
 
 Console.WriteLine("Максимальное число : " + max);
